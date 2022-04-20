@@ -55,7 +55,7 @@ for county_dict in voting_data:
     for value in county_dict.values():
         print(value)
 
-#printing each countya dn registered voter from the dictionary
+#skill drill 1: printing each countya dn registered voter from the dictionary
 counties_dict = {"Arapahoe":422829, "Denver":463353, "Jefferson":432438}
 for county in counties_dict.keys():
     print (county)
@@ -63,3 +63,6 @@ for voters in counties_dict.values():
     print(voters)
 for county, voters in counties_dict.items():
     print(f"{county} county has {voters} registered voters.")
+
+#skill drill 2: printing each county and registered voter from the dictionary 
+
